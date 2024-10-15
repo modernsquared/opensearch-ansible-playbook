@@ -1,8 +1,8 @@
-os1 ansible_host=10.0.0.35  ansible_user=root ip=10.0.0.35 roles=data,master
-os2 ansible_host=10.0.0.9  ansible_user=root ip=10.0.0.9 roles=data,master
-os3 ansible_host=10.0.0.34  ansible_user=root ip=10.0.0.34 roles=data,master
+os1 ansible_host=5.78.64.250  ansible_user=root ip=5.78.64.250 roles=data,master
+os2 ansible_host=5.78.127.59  ansible_user=root ip=5.78.127.59 roles=data,master
+os3 ansible_host=5.78.126.247  ansible_user=root ip=5.78.126.247 roles=data,master
 
-dashboards1 ansible_host=10.0.0.34  ansible_user=root ip=10.0.0.34
+dashboards1 ansible_host=5.78.126.247  ansible_user=root ip=5.78.126.247
 
 # List all the nodes in the os cluster
 [os-cluster]
