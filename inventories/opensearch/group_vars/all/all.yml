@@ -16,12 +16,12 @@ os_dashboards_version: "2.17.1"
 # Configure hostnames for opensearch nodes
 # It is required to configure SSL
 # Example es1.example.com, es2.example.com
-domain_name: example.com
+domain_name: os1.modernsquared.com
 
-# Java memory heap values(GB) for opensearch
+# Java memory heap values(MB) for opensearch
 # You can change it based on server specs
-xms_value: 0.75
-xmx_value: 0.75
+xms_value: 768
+xmx_value: 768
 
 # Cluster type whether its single-node or multi-node
 cluster_type: multi-node
